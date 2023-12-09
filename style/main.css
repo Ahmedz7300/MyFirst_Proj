@@ -151,3 +151,41 @@ line-height: 30px; }
                                 line-height: 30px; /* 166.667% */
 
                             }
+                            .solid {
+                              
+                                margin: 20px 200px 20px 200px;
+                                width: 800px;
+                                top: 5170px;
+                                left: 254px;
+                                border: 1px;
+                                opacity: 0.5px;
+                              
+                                
+                                
+                                border: 1px solid #058B8C
+
+                                
+                                
+                                
+                              }
+
+                              .footer_para{
+                                /* margin: 20px 500px 20px 200px;
+                                width: 369px;
+                                    height: 30px;
+                                    top: 5200px;
+                                    left: 776px; */
+                                    font-size: 20px;
+                                    font-weight: 400;
+                                    line-height: 30px;
+                                    letter-spacing: 0em;
+                                    text-align: center;
+
+
+
+
+                                    
+                                    color: #8F8F8F;
+
+
+                              } 
