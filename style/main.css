@@ -85,7 +85,7 @@ nav ul li:hover{
                         padding-left: 15px;
                                     }
                                     .news_letter button{
-                                    width :23%;
+                                    width :35%;
                                     margin-left: 1rem;
                                     border-radius: 48px;
 background: #058B8C;
@@ -189,3 +189,12 @@ line-height: 30px; }
 
 
                               } 
+                              .logo_image{
+                                width: 269px;
+                                height: 42px;
+                              padding :10px 10px ;
+                                
+
+
+
+                              }
