@@ -7,8 +7,8 @@
 }
 header{
     max-width: 1250px;
-     margin:auto;
-     padding: 10px;
+    margin: 22px -65px 17px 212px;
+         padding: 10px;
      display: flex;
      justify-content: space-between;
      align-items: center;
@@ -30,20 +30,16 @@ nav ul li:hover{
     color: #058B8C;
     cursor: pointer;
     }
-     footer{
+    footer {
         list-style: none;
         max-width: 1250px;
-         color: #8F8F8F; 
-        
-        margin:auto;
-       
+        color: #8F8F8F;
+        margin: 39px auto;
         display: grid;
         align-items: center;
-        grid-template-columns:  1fr 1fr 1fr 1fr;
-        gap: 82px
-       
-   
-    } 
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        gap: 82px;
+    }
     .Header_button{
         border-radius: 48px;
         background: #058B8C;
@@ -153,7 +149,7 @@ line-height: 30px; }
                             }
                             .solid {
                               
-                                margin: 20px 200px 20px 200px;
+                                margin:24px 200px 25px 352px;
                                 width: 800px;
                                 top: 5170px;
                                 left: 254px;
@@ -194,7 +190,582 @@ line-height: 30px; }
                                 height: 42px;
                               padding :10px 10px ;
                                 
-
-
-
                               }
+                              .page_width 
+                                {
+                                    max-width: 1250px;
+                                    margin: auto;
+                                    padding: 0px 10px;
+                                    background: url(../assets/Images/Union-1.png);
+                                    background-repeat: no-repeat;
+                                    background-position: unset;
+                                    background-size: contain;
+                                
+                            }
+                            .banner_section {
+                                max-width: 1250px;
+                                /* padding: 50px 0px; */
+                                background: url("../assets/Images/bg_banner.svg");
+                               
+                                background-repeat: no-repeat;
+                                background-position: right;
+                                background-size: contain;
+
+                                margin:auto;
+                                padding: 10px;
+                               /* background: #F9F9F9; */
+                            }
+                            .banner_inner_section {
+                                display: grid;
+                                grid-template-columns: 1fr 1fr;
+                                gap: 20px;
+                            }
+                            /* .banner_inner_section .banner_img {
+                                padding: 20px;
+                            }
+                            .banner_inner_section .banner_img img {
+                                border-radius: 50%;
+                            } */
+                            .banner_inner_section .banner_content {
+                                margin-top: 130px;
+                            }
+                            .banner_inner_section .banner_content small {
+                                border-radius: 30px;
+                                background: #058B8C;
+                                color: #FFF;
+                                font-family: Rubik;
+                                font-size: 14px;
+                                font-style: normal;
+                                font-weight: 500;
+                                line-height: 0px;
+                                padding: 5px 10px;
+                            }
+
+                            .banner_inner_section .banner_content .intro {
+                                margin-top: 10px;
+                                color: #1E1E1E;
+                                font-family: Rubik;
+                                font-size: 60px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: normal;
+                                letter-spacing: -1.8px;
+                            }
+                            .banner_inner_section .banner_content h2 {
+                                color: #1E1E1E;
+                                font-family: Rubik;
+                                font-size: 60px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                letter-spacing: -3.6px;
+                            }
+                            .banner_inner_section .banner_content h2 span {
+                                color: #058B8C;
+                            }
+                            .banner_inner_section .banner_content .description {
+                                color: #1E1E1E;
+                                font-family: Rubik;
+                                font-size: 24px;
+                                font-style: normal;
+                                font-weight: 400;
+                                line-height: 40px;
+                                /* 166.667% */
+                            }
+                            .banner_button .btn_1 {
+                                border-radius: 48px;
+                                background: #8D0F11;
+                                box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset;
+                                border: none;
+                                color: #FFF;
+                                text-align: center;
+                                font-family: Rubik;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                padding: 10px 20px;
+                            }
+                            .banner_button .btn_2    {
+                                border-radius: 48px;
+                                background: transparent;
+                                /* box-shadow: 3px 3px 10px 0px rgba(0, 0, 0, 0.20), 3px 4px 10px 0px rgba(0, 0, 0, 0.20) inset; */
+                                border: 2px solid #1E1E1E;
+                                color: #1E1E1E;
+                                text-align: center;
+                                font-family: Rubik;
+                                font-size: 18px;
+                                font-style: normal;
+                                font-weight: 700;
+                                line-height: normal;
+                                text-transform: uppercase;
+                                padding: 10px 20px;
+                            }
+.banner_inner_section .banner1_img img{
+    border-radius: 50%;
+    height: 400px;
+    padding: 29px;
+    margin: 47px;
+
+}
+
+ 
+.banner_section .banner_img img {
+ 
+    height: 30px;
+    padding: 29px;
+    margin: auto;;
+} 
+.bannerprop{
+margin: auto;
+display: grid;
+align-items: center;
+grid-template-columns: 1fr 1fr ;
+gap:20px;
+
+}
+.bannerprop2{
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1.3fr .7fr ;
+    gap:20px;
+    
+    }
+.right p{
+    width: 692px;
+height: 180px;
+flex-shrink: 0;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 35px; /* 194.444% */
+}
+.right h2
+{ 
+    margin: 15px ;
+    color: #1E1E1E;
+font-family: Rubik;
+font-size: 60px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+
+/* .banner_inner_section .banner_content h2 span {
+    color: #058B8C;
+} */
+.banner_section1 .right h2 span{
+    margin: auto;
+    color: #058B8C;
+}
+.banner_section1 .left img{
+    border-radius: 50%;
+    height: 414px;
+    margin: 23px 66px 38px 171px;
+    padding: 10px 40px 10px 5px;;
+}
+
+
+.banner_section1{
+    max-width: 1250px;
+     height: 631px;
+     margin:auto;
+     padding: 10px;
+    background: #F9F9F9;
+
+}
+.banner_section2{
+max-width: 1250px;
+     height: 524px;
+     margin:auto;
+     padding: 10px;
+     background: #058B8C;}
+
+
+
+.banner_section1 .right p{
+    margin:auto;
+    padding: 0px 150px 0px 30px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 20px; /* 194.444% */
+
+    
+}
+
+.banner_section1 .right
+{
+    width: 692px;
+    height: 391px;
+flex-shrink: 0;
+}
+.banner_section2 .bannerprop2 .left1 p{
+   margin: -8px 10px 5px 116px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 35px; /* 194.444% */
+}
+
+.banner_section2 .bannerprop2 .left1 h2{
+    margin: -8px 10px 5px 116px;
+    color: #FFF;
+    font-family: Rubik;
+    font-size: 30px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: normal;
+    letter-spacing: -1.8px;
+}
+.banner_section2 .bannerprop2 .left1 span{
+
+ color: #FFF;
+font-family: Rubik;
+font-size: 40px;
+font-style: normal;
+font-weight: 500;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+.banner_section2 .bannerprop2 .right1 img{
+    border-radius: 50%;
+    height: 414px;
+    margin: 30px  5px 100px -40px;
+    padding: 10px 40px 10px 5px;
+    
+
+}
+.bannerprop3{
+    width: 769px;
+    margin: auto;
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr ;
+    gap: 299px;
+}
+ .bannerprop3 .rectangle_borders3 img{
+    margin: 7px 129px 10px 424px;
+    
+    border-radius: 300px;
+    background: #F8F8F8;
+    box-shadow: 18px 54px 64px 33px rgba(0, 0, 0, 0.08);
+    height: 150px;;
+
+
+
+}
+.bannerprop3 .start img{
+
+    width: 150px;
+    height: 150px;
+    flex-shrink: 0;
+
+
+}
+.rectangle_borders3{
+
+    margin :39px -480px 10px -452px;
+}
+.banner_section3
+{
+    max-width: 1250px;
+    height: 428px;
+    margin:auto;
+    padding: 10px;
+    background: #F9F9F9;
+}
+.rectangle_borders3 h2{
+margin:28px 162px 33px 405px;
+color: #1E1E1E;
+
+font-family: Rubik;
+font-size: 25px;
+font-style: normal;
+font-weight: 600;
+line-height: 40px; /* 142.857% */
+
+
+}
+.banner_section4{
+
+ 
+    max-width: 1250px;
+    background: url(../assets/Images/blur_moon.svg);
+    /* background: url(../assets/Images/bg_banner.svg); */
+    /* background: no-repeat; */
+    height: 500px;
+    margin: auto;
+    padding: 10px;
+    background-repeat: no-repeat;
+    background-position: left;
+    background-size: contain;
+
+}
+.banner_section4 h2{
+    margin: 17px 20px 84px 32px;    color: #1E1E1E;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+
+
+.banner_section4 h2  span{
+color: #058B8C;
+font-family: Rubik;
+font-size: 50px;
+font-style: normal;
+font-weight: 700;
+line-height: normal;
+letter-spacing: -1.8px;
+}
+.grid4{
+    
+    /* display: grid;
+  grid-template-columns: 1 fr 1fr 1fr 1fr;
+  background-color: #2196F3;
+  padding: 10px; */
+
+        
+        
+        margin:34px 19px 10px 26px;;
+       
+        display: grid;
+        align-items: center;
+        grid-template-columns:  1fr 1fr 1fr 1fr;
+        gap: 20px;
+    
+
+
+}
+.grid4 .col_1 img{
+    /* border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%); */
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%);
+    width: 258px;
+    height: 292px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: repeat;
+    margin: auto;
+    box-shadow: 6px 23px 32px 0px #0000001A;
+}
+
+.grid4 .col_1 h2{
+    margin: -96px 46px 20px 31px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 32px;
+}
+/* .grid4 #Roof_Service img{
+    border-radius: 0px 0px 30px 30px;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 16.85%, #FFF 73.55%);
+    width: 258px;
+    height: 292px;
+    background: url(<path-to-image>), lightgray 50% / cover no-repeat;
+    margin: 54px 122px;
+ */
+ .grid4 .col_1{
+   margin:12px -51px 10px 1px;
+
+ }
+
+ .banner_section5{
+    max-width: 1250px;
+    height:1214px;
+    margin: auto;
+    padding: 10px;
+    background: #F9F9F9;
+
+
+ }
+ .banner_section5 h2{
+    margin: 40px;
+    font-family: Rubik;
+font-size: 60px;
+font-weight: 700;
+line-height: 71px;
+letter-spacing: -0.03em;
+text-align: center;
+
+font-family: Rubik;
+font-size: 60px;
+font-weight: 400;
+line-height: 71px;
+letter-spacing: -0.03em;
+text-align: center;
+
+
+
+
+ }
+
+
+
+ .banner_section5 h2 span{
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    
+    font-family: Rubik;
+    font-size: 60px;
+    font-weight: 400;
+    line-height: 71px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    color:#058B8C;
+
+ }
+
+ .banner_section5 p{
+
+font-family: Rubik;
+font-size: 15px;
+font-weight: 400;
+line-height: 30px;
+letter-spacing: 0em;
+text-align: center;
+
+ }
+
+ .banner_prop5{
+    display: grid;
+    align-items: center;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 0px;
+}
+
+ 
+ .square {
+    height: 260px;
+    width: 292px;
+    background: #FFFFFF;
+    border-radius: 30px 24px 29px 32px;
+    border: #f3f3f3;
+    border-width: 163px;
+    margin: 49px 19px 10px 52px;
+    border-style: solid;
+    line-height: 20px;
+    box-shadow: 25px 5px 20px 0px #0000001A;
+  }
+
+  .square img{
+    margin: -63px 119px 42px -148px;
+    height: 106px;
+  }
+  .square .checked {
+    color: orange;
+    margin: -38px -3px -6px 15px;
+    padding: -5px;
+    line-height: 2px;
+  }
+  
+  .square small{
+    box-sizing: border-box;
+    font-family: 'Rubik', sans-serif;
+    white-space: nowrap;
+  }
+  .banner_section5 .left .square p{
+
+    margin: -154px 10px 10px -19px;
+    line-height: 32px;
+    text-align: center;
+    white-space: nowrap;
+    line-height: 24px;
+
+  }
+  .left{
+    margin:10px 0px 10px -34px;
+  }
+  .checked {
+    color: orange;
+  }
+  .fa {
+    display: inline-block;
+    font: normal normal normal 14px/1 FontAwesome;
+    font-size: 10px;
+    padding: -22px;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+.square .flex-container{
+
+display: flex;
+margin: -68px 10px 68px -34px;
+
+}
+.pa5 p{
+
+    font-family: Rubik;
+    font-size: 21px;
+    font-weight: 600;
+    line-height: 40px;
+    letter-spacing: 0em;
+    text-align: left;
+    
+
+}
+.left #ah{
+
+    margin: -194px -183px 59px 10px;
+    padding: 10px 244px 24px 61px;
+}
+.left #kh{
+
+    margin: -194px -183px 59px 10px;
+    padding: 10px 244px 24px 61px;
+}
+.Last_section {
+    width: 1250px;
+    height: 300px;
+    top: 4815px;
+    background: #058B8C;
+    margin: auto;
+    padding: 10px;
+
+    
+
+
+}
+.Last_section p{
+   margin: 60px 167px 42px 127px;
+font-family: Rubik;
+font-size: 45px;
+font-weight: 700;
+line-height: 71px;
+letter-spacing: -0.03em;
+text-align: center;
+color: #FFFFFF;
+
+
+
+}
+.Last_section p span{
+    margin:10px 62px 10px 24px;
+    font-family: Rubik;
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 50px;
+    letter-spacing: -0.03em;
+    text-align: center;
+    
+
+}
