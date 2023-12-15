@@ -245,7 +245,7 @@ line-height: 30px; }
                                 margin-top: 10px;
                                 color: #1E1E1E;
                                 font-family: Rubik;
-                                font-size: 60px;
+                                font-size: 55px;
                                 font-style: normal;
                                 font-weight: 400;
                                 line-height: normal;
@@ -254,7 +254,7 @@ line-height: 30px; }
                             .banner_inner_section .banner_content h2 {
                                 color: #1E1E1E;
                                 font-family: Rubik;
-                                font-size: 60px;
+                                font-size: 55px;
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: normal;
@@ -304,9 +304,9 @@ line-height: 30px; }
                             }
                             .banner_inner_section .banner1_img img {
                                 border-radius: 50%;
-                                height: 452px;
-                                width: 459px;
-                                margin: 70px 18px 10px 57px;
+                                height: 399px;
+                                width: 419px;
+                                margin: 70px 18px 10px 98px;
                             }
 
  
