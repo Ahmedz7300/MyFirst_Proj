@@ -436,13 +436,12 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: -1.8px;
 }
-.banner_section2 .bannerprop2 .right1 img{
+.banner_section2 .bannerprop2 .right1 img {
     border-radius: 50%;
-    height: 414px;
-    margin: 30px  5px 100px -40px;
+    height: 455px;
+    width: 458px;
     padding: 10px 40px 10px 5px;
-    
-
+    margin: 41px 10px 10px -23px;
 }
 .bannerprop3{
     width: 769px;
