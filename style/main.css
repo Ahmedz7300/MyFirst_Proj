@@ -7,7 +7,7 @@
 }
 header{
     max-width: 1250px;
-    margin: 22px -65px 17px 212px;
+    margin: auto;
          padding: 10px;
      display: flex;
      justify-content: space-between;
@@ -485,14 +485,13 @@ letter-spacing: -1.8px;
     background: #F9F9F9;
 }
 .rectangle_borders3 h2{
-margin:28px 162px 33px 405px;
-color: #1E1E1E;
-
-font-family: Rubik;
-font-size: 25px;
-font-style: normal;
-font-weight: 600;
-line-height: 40px; /* 142.857% */
+    margin: 27px 162px 33px 434px;
+    color: #1E1E1E;
+    font-family: Rubik;
+    font-size: 18px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 40px;
 
 
 }
