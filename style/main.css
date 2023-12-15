@@ -245,7 +245,7 @@ line-height: 30px; }
                                 margin-top: 10px;
                                 color: #1E1E1E;
                                 font-family: Rubik;
-                                font-size: 55px;
+                                font-size: 60px;
                                 font-style: normal;
                                 font-weight: 400;
                                 line-height: normal;
@@ -254,7 +254,7 @@ line-height: 30px; }
                             .banner_inner_section .banner_content h2 {
                                 color: #1E1E1E;
                                 font-family: Rubik;
-                                font-size: 55px;
+                                font-size: 60px;
                                 font-style: normal;
                                 font-weight: 700;
                                 line-height: normal;
@@ -303,11 +303,11 @@ line-height: 30px; }
                                 padding: 10px 20px;
                             }
                             .banner_inner_section .banner1_img img {
-                                border-radius: 50%;
-                                height: 399px;
-                                width: 419px;
-                                margin: 70px 18px 10px 98px;
-                            }
+    border-radius: 50%;
+    height: 452px;
+    width: 459px;
+    margin: 70px 18px 10px 57px;
+}
 
  
 .banner_section .banner_img img {
@@ -324,14 +324,13 @@ grid-template-columns: 1fr 1fr ;
 gap:20px;
 
 }
-.bannerprop2{
+.bannerprop2 {
     margin: auto;
     display: grid;
     align-items: center;
-    grid-template-columns: 1.3fr .7fr ;
-    gap:20px;
-    
-    }
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
 .right p{
     width: 692px;
 height: 180px;
@@ -436,13 +435,16 @@ font-weight: 500;
 line-height: normal;
 letter-spacing: -1.8px;
 }
-.banner_section2 .bannerprop2 .right1 img {
-    border-radius: 50%;
-    height: 394px;
-    width: 429px;
-    padding: 10px 40px 10px 5px;
-    margin: 41px 10px 10px -23px;
-}
+ .banner_section2 .bannerprop2 .right1 img{
+    
+        border-radius: 50%;
+        height: 426px;
+        margin: 51px 5px 72px 57px;
+        padding: 9px 40px 10px 5px;
+    
+    
+
+} 
 .bannerprop3{
     width: 769px;
     margin: auto;
